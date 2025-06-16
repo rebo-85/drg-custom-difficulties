@@ -32,17 +32,17 @@ Vanilla Hazard 5.5, 2x enemies, 60 nitra resupplies
 ## [Hazard 5](difficulties/Hazard_5.cd.json)
 Vanilla Hazard 5
 
+## [Hazard 5x2, 60 Nitra](difficulties/Hazard_5x2_60_Nitra.cd.json)
+Hazard 5, 2x enemies, 60 nitra resup cost
+
 ## [Hazard 5 Carry](difficulties/Hazard_5_Carry.cd.json)
-Hazard 5 with all properties that normally scale with player count fixed to 4 player values regardless of player count.
+Hazard 5 with all modifiers II applied, scaled to 4 players.
 
 ## [Hazard 5 - Praetorian Edition](difficulties/Hazard_5_Praetorian_Edition.cd.json)
 Like the other version which replaces grunts with praetorians, but here we adjust the spawn cost to match grunts, increase the ideal spawn size from 3 to 6 and remove the maximum spawn size (was 4). I've also changed the rarity to 1, which is the lowest rarity present in the EnemyDescriptors and the rarity of grunts.
 
 ## [Hazard 5 - Praetorian Edition](difficulties/Hazard_5_Praetorian_Edition_v2.cd.json)
 This is a demonstration custom difficulty that shows how to remove grunts and create a new praetorian descriptor that takes the place of grunts. The low rarity works like the grunt rarity in that it nearly guarantees praetorians get picked first for any spawns. A future version might demonstrate adjusting spawn costs and size to increase praetorian spawn counts.
-
-## [Hazard 5x2, 60 Nitra](difficulties/Hazard_5x2_60_Nitra.cd.json)
-Hazard 5, 2x enemies, 60 nitra resup cost
 
 ## [Hazard 6](difficulties/Hazard_6.cd.json)
 Imported from Ike's [Hazard 6 on Mod.io](https://drg.mod.io/ike)

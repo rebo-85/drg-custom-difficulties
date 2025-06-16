@@ -1,11 +1,102 @@
 {
   "Name": "Hazard 5 Carry",
-  "Description": "Hazard 5 with all properties that normally scale with player count fixed to 4 player values regardless of player count.",
-  "ExtraLargeEnemyDamageResistance": 1.7,
-  "ExtraLargeEnemyDamageResistanceB": 1.3,
-  "ExtraLargeEnemyDamageResistanceC": 1.6,
-  "ExtraLargeEnemyDamageResistanceD": 1.65,
-  "EnemyDamageResistance": 1.5,
-  "EnemyDamageModifier": 3.4,
-  "EnemyCountModifier": 1.5
+  "Description": "Hazard 5 with all modifiers II applied, scaled to 4 players.",
+  "MaxActiveSwarmers": 90,
+  "MaxActiveEnemies": 90,
+  "ExtraLargeEnemyDamageResistance": [
+    1.3125,
+    1.49,
+    2.1,
+    2.975
+  ],
+  "ExtraLargeEnemyDamageResistanceB": [
+    1.225,
+    1.225,
+    1.75,
+    2.625
+  ],
+  "ExtraLargeEnemyDamageResistanceC": [
+    1.05,
+    1.7,
+    1.75,
+    2.8
+  ],
+  "ExtraLargeEnemyDamageResistanceD": [
+    2.275,
+    2.275,
+    2.625,
+    2.8875
+  ],
+  "EnemyDamageResistance": [
+    1.596,
+    1.596,
+    1.862,
+    1.995
+  ],
+  "SmallEnemyDamageResistance": [
+    1.596,
+    1.596,
+    1.596,
+    1.596
+  ],
+  "EnemyDamageModifier": [
+    5.6,
+    6,
+    6.4,
+    6.8
+  ],
+  "EnemyCountModifier": [
+    1.275,
+    1.275,
+    1.875,
+    2.25
+  ],
+  "VeteranNormal": [
+    {
+      "weight": 3,
+      "range": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "weight": 9,
+      "range": {
+        "min": 0.1725,
+        "max": 0.345
+      }
+    },
+    {
+      "weight": 2,
+      "range": {
+        "min": 0.46,
+        "max": 0.69
+      }
+    },
+    {
+      "weight": 0.5,
+      "range": {
+        "min": 1.15,
+        "max": 1.15
+      }
+    }
+  ],
+  "VeteranLarge": [
+    {
+      "weight": 1,
+      "range": {
+        "min": 0.20125,
+        "max": 0.20125
+      }
+    }
+  ],
+  "DisruptiveEnemyPoolCount": {
+    "min": 5,
+    "max": 5
+  },
+  "EnvironmentalDamageModifier": 1.65,
+  "FriendlyFireModifier": 1.498,
+  "SpeedModifier": 1.518,
+  "AttackCooldownModifier": 3,
+  "ProjectileSpeedModifier": 2.04
 }
